@@ -27,12 +27,12 @@ body { background: #b8c2d8 !important; }
 .gl-box ul.gl-list li a { color: #5a1f8f !important; text-decoration: none !important; font-size: 13.5px !important; font-weight: 600 !important; }
 
 /* 6. Ô NHẬP LIỆU & TÌM KIẾM */
-.gl-box input[type=text], .gl-box select, .violet-search input, input[type=text], input[type=password], #searchInput { background: rgba(255, 255, 255, 0.9) !important; border: 1.5px solid #e0e0e0 !important; border-radius: 99px !important; padding: 10px 18px !important; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04), inset 0 2px 4px rgba(0, 0, 0, 0.02) !important; color: #333 !important; font-size: 13px !important; font-weight: 500 !important; outline: none !important; width: 100% !important; box-sizing: border-box !important; }
+.gl-box input[type=text], .gl-box select, .violet-search input, #searchInput { background: rgba(255, 255, 255, 0.9) !important; border: 1.5px solid #e0e0e0 !important; border-radius: 99px !important; padding: 10px 18px !important; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04), inset 0 2px 4px rgba(0, 0, 0, 0.02) !important; color: #333 !important; font-size: 13px !important; font-weight: 500 !important; outline: none !important; width: 100% !important; box-sizing: border-box !important; }
 .gl-box input[type=text]:focus, .violet-search input:focus, input[type=text]:focus, input[type=password]:focus, #searchInput:focus { background: #ffffff !important; border-color: #5ed7cb !important; box-shadow: 0 0 0 4px rgba(94, 215, 203, 0.3) !important; }
 .gl-box select { border-radius: 12px !important; padding: 8px 12px !important; }
 
 /* Sửa lỗi tràn ô nhập liệu ở khung đăng nhập */
-#login input[type=text], #login input[type=password] { width: calc(100% - 85px) !important; }
+#login input[type=text], #login input[type=password] { width: calc(100% - 85px) !important; background: rgba(255, 255, 255, 0.9) !important; border: 1.5px solid #e0e0e0 !important; border-radius: 99px !important; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04), inset 0 2px 4px rgba(0, 0, 0, 0.02) !important; color: #333 !important; font-size: 13px !important; font-weight: 500 !important; outline: none !important; width: 100% !important; box-sizing: border-box !important;}
 
 /* 7. DANH SÁCH TÀI LIỆU & TIN TỨC */
 .document li { background: rgba(255, 255, 255, 0.95) !important; border: 1.5px solid rgba(255, 255, 255, 1) !important; border-radius: 20px !important; box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05), inset 0 2px 4px rgba(255, 255, 255, 1) !important; transition: all 0.3s ease !important; margin: 5px 8px 15px 5px !important; }
