@@ -28,8 +28,8 @@ body { background: #b8c2d8 !important; }
 .menutop ul { display: flex !important; width: 100% !important; padding: 0 !important; margin: 0 !important; box-sizing: border-box !important; }
 .menutop li { flex: 1 !important; float: none !important; text-align: center !important; }
 .menutop a { float: none !important; display: block !important; width: 100% !important; box-sizing: border-box !important; padding: 8px 5px !important; }
-#login { box-sizing: border-box !important; overflow: hidden !important; }
-#login div { display: flex !important; align-items: center !important; justify-content: space-between !important; margin-bottom: 8px !important; width: 100% !important; box-sizing: border-box !important; }
-#login label { flex: 0 0 35% !important; max-width: 35% !important; font-size: 13px !important; }
-#login input[type=text], #login input[type=password] { flex: 1 !important; width: 100% !important; max-width: 65% !important; box-sizing: border-box !important; margin: 0 !important; }
-#login input[type=checkbox] { width: auto !important; max-width: none !important; }
+#login div { display: flex !important; align-items: center !important; justify-content: space-between !important; white-space: normal !important; }
+#login label { flex: 0 0 90px !important; font-size: 12px !important; }
+#login input[type=text], #login input[type=password] { width: calc(100% - 95px) !important; max-width: 100% !important; padding: 6px 12px !important; margin: 3px 0 !important; box-sizing: border-box !important; }
+#login input[type=checkbox] { width: auto !important; margin: 0 !important; }
+#login input[type=submit] { width: auto !important; margin-top: 5px !important; }
